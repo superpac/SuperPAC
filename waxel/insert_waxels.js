@@ -11,6 +11,10 @@ db.waxels.save({
 	light: {type:'rgb256', r:1, g:2, b:3},
 	sound: [23,11,23,45],
 	texual: "dog licking happily",
-
-	waxel: { x: 190, y: 45.5, z:-41, a: 24.4, b: 43.2, g: -10.2 }
+	waxel: { x: 190, y: 45.5, z:-41, 
+				a: 24.4, b: 43.2, g: -10.2,
+				ts: 1349929606000,
+				visual:{frame_index:12345678910,},
+            audio: {audio_index:12345678910,},
+	}
 });
