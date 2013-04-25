@@ -1,4 +1,4 @@
-use Universe_A
+use Universe_A;
 
 db.waxels.save({
 	temperature:75 /*F*/,
@@ -14,7 +14,13 @@ db.waxels.save({
 	waxel: { x: 190, y: 45.5, z:-41, 
 				a: 24.4, b: 43.2, g: -10.2,
 				ts: 1349929606000,
-				visual:{frame_index:12345678910,},
-            audio: {audio_index:12345678910,},
+				visual:{frame_index:12345678910},
+            audio: {audio_index:12345678910},
+				blood_alcohol_content:[.11,1],
+				eyes:{myopia: {left:-3, right:-7.5}},
+				other:{
+					infection:[{name:"Otisis Media", "IDC-9":"382"},{name:"Athelete's Foot","IDC-9":"110.4"}],
+					mental:[{name:"Bipolar", "IDC-9":"296.6"}]
+				}
 	}
 });

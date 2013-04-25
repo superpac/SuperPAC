@@ -1,3 +1,5 @@
+use Universe_A;
+
 db.waxels.find({
 	temperature:{$gt:70, $lt:90},
 	'force.a':{$gt:0, $lt:90},
